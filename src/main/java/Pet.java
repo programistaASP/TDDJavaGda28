@@ -21,6 +21,7 @@ public class Pet {
      * Wiek
      */
     private int age;
+    private final int defaultLenght = 3;
 
     /**
      * @return Wiek zwierzątka
@@ -74,7 +75,9 @@ public class Pet {
     /**
      * @param name Ustawia imię zwierzątka
      */
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String name){
+
+            this.name = name;
+
     }
 }
